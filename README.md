@@ -65,6 +65,7 @@ This Docker image will perform the following tasks (folders listed in this secti
 9. For each of the folders created in points 5 (`/output/Norge`), 7 (e.g. `/output/Oslo/_county`, `/output/Nordland/_county`, `/output/Troms og Finnmark/_county`), and 8 (e.g. `/output/Oslo/Oslo`, `/output/Rogaland/Eigersund`, `/output/Rogaland/Stavanger`, `/output/Troms og Finnmark/Berlevåg`) perform the following analyses (corresponding to the appropriate geographical location:
 
 a) save the datasets `full_day.xlsx` and `full_week.xlsx` (appropriately stratified for the correct geographical location)
+
 b) create and save a png graph called `graph.png`. This graph will have date (days) as the x-axis, and number of sick people as the y-axis. Inside the graph, it will be given the following title: "Disease X in [LOCATION_NAME] (pop. [POPULATION NUMBER])". E.g. "Disease X in Norway (pop. 5 368 000)", or "Disease X in Oslo (pop. 681 067)". It is important that the population is formatted according to the Norwegian standard (i.e. do not separate when a number is 4 digits or less. When a number is 5 digits or more, 3 digits are seperated by whitespace " ", not by commas. e.g. `1000`, `5000`, `10 000`, `100 000`, `1 000 000`).
 
 ## Goal (deliverable 2)
