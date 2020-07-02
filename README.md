@@ -6,9 +6,11 @@ Dear XXXXXXX,
 
 Thank you for agreeing to take part in this assessment! This is an assignment related to infectious disease surveillance that will test your skills in either R or Python. The deadline for submission of the test is 24 hours after you receive this email.
 
-The assessment description is available at https://github.com/folkehelseinstituttet/xx_02
+The assessment description is available at https://github.com/folkehelseinstituttet/xx_02/blob/master/README.md
+
 Please read through all of this document before beginning the test.
 
+If you have any questions or problems, please contact Richard via email (richardaubrey.white@fhi.no) or via iMessage/WhatsApp/Signal on +47 XXX XX XXX.
 
 ## Github repository
 
@@ -20,7 +22,7 @@ All folders/files in this email refer to this repository, unless otherwise speci
 
 There was a dramatic regional reform (kommunesammenslåing) that occurred on 2020-01-01, which involved large-scale redistricting and renaming of municipalities (kommuner) and counties (fylker).
 
-Norway has 356 municipalities and 11 counties. Each county has multiple municipalities inside it.
+Norway now has 356 municipalities and 11 counties. Each county has multiple municipalities inside it.
 
 You can find out more information on the 356 Norwegian municipalities here: https://en.wikipedia.org/wiki/List_of_municipalities_of_Norway
 
@@ -32,10 +34,10 @@ We have provided you with a "structural" dataset `data_structural/norway_locatio
 
 The scenario is broadly as follows:
 
-You are responsible for `Disease X`. There is a data file `input/individual_level_data.csv` which contains individual level daily data for `Disease X` for Norway (at the municipality level) between `2000-01-01` and `2010-12-31`. Each row of this dataset corresponds to 1 sick person on that date. To be more explicit:
+You are responsible for `Disease X`. There is a data file `input/individual_level_data.csv` which contains individual level daily data for `Disease X` for Norway (at the municipality level) between `2015-01-01` and `2020-12-31`. Each row of this dataset corresponds to 1 sick person on that date. To be more explicit:
 
-- If there are 100 rows for `municip0301` on `2000-01-01` it means that there were 100 sick people in `municip0301` on `2000-01-01`.
-- If there are 0 rows for `municip0301` on `2000-01-01` it means that there were 0 sick people in `municip0301` on `2000-01-01`.
+- If there are 100 rows for `municip0301` on `2015-01-01` it means that there were 100 sick people in `municip0301` on `2015-01-01`.
+- If there are 0 rows for `municip0301` on `2015-01-01` it means that there were 0 sick people in `municip0301` on `2015-01-01`.
 
 You will create a Docker image that analyses the data file `input/individual_level_data.xlsx` and saves the results in `output/`.
 
