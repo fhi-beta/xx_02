@@ -12,6 +12,10 @@ Please read through all of this document before beginning the test.
 
 If you have any questions or problems, please contact Richard via email (richardaubrey.white@fhi.no) or via iMessage/WhatsApp/Signal on +47 XXX XX XXX.
 
+## Language choice
+
+You have a free choice to do this assignment in either R or Python.
+
 ## Github repository
 
 The data required for this test is available at https://github.com/folkehelseinstituttet/xx_02
@@ -77,6 +81,7 @@ You need to upload a github repo containing your Dockerfile and all relevant cod
 Send RichardAubrey.White@fhi.no, GryMarysol.Groneng@fhi.no, and Birgitte.Freiesleben.DeBlasio@fhi.no an email with:
 
 a) the link to your Docker image on Docker-hub (deliverable 1)
+
 b) the link to your Github repo (deliverable 2)
 
 ## Hints
