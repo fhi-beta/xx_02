@@ -22,6 +22,8 @@ The data required for this test is available at https://github.com/folkehelseins
 
 All folders/files in this email refer to this repository, unless otherwise specified.
 
+DO NOT FORK THIS REPOSITORY!!!!!!!!!!!!!!!!!!!!!!
+
 ## Information about Norway
 
 There was a dramatic regional reform (kommunesammenslåing) that occurred on 2020-01-01, which involved large-scale redistricting and renaming of municipalities (kommuner) and counties (fylker).
